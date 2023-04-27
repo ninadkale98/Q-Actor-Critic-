@@ -38,3 +38,5 @@ for terminal state newQsa is zero
 changed order of calling zero_grad and loss
 using nn.MSE loss
 removed retain_graph=True as it is independent
+
+temp
