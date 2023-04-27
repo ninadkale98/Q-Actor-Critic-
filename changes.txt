@@ -1,0 +1,34 @@
+in critic loss -> detached exp exp.detach()
+learning rate = 0.00001 from 0.0001
+
+----------------------------------------------------------
+I got MSE returned NAN. some values are going to inf ig. 
+
+smith too did exp detach and it make sense to have it. learning rate is fine too. 
+
+i have not used negative in log prop * tderr equation
+
+let it train for 10k episodes
+
+---------------------------------------------------------
+
+
+
+tring with negative in logprop * tderr -> only change
+
+----------------------------------------------------------
+
+i can try with different learning rate of acotr and critic
+
+this configuration looks much better than previous ones. keep it and change other parameters
+
+(exp - q).pow(2).mean() -> check this 
+
+smitr is saying dont use sum. just 
+
+try lunar lander 
+
+
+--------------------------------------------
+removed  exp detached
+for terminal state newQsa is zero
