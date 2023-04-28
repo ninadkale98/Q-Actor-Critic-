@@ -40,3 +40,20 @@ using nn.MSE loss
 removed retain_graph=True as it is independent
 
 temp 2
+
+
+------------------
+
+mean for critic loss
+
+use retain graph not requires grad
+
+dont us3e retain graph
+
+
+torch. no grad dont use  -> intreating 
+
+
+
+
+
